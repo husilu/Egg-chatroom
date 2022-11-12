@@ -11,6 +11,9 @@
   "dependencies": {
     "core-js": "^3.26.0",
     "egg": "^3.3.3",
+    "egg-mongoose": "^3.3.1",
+    "egg-validate": "^2.0.2",
+    "jsonwebtoken": "^8.5.1",
     "snyk": "^1.1046.0"
   },
   "devDependencies": {
