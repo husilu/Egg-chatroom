@@ -25,9 +25,13 @@ class UserService extends Service {
   }
 
   createToken(data) {
-    return jwt.sign(data, this.app.config.jwt.scret, {
+    return jwt.sign(data, this.app.config.jwt.secret, {
       expiresIn: this.app.config.jwt.expiresIn
     })
+  }
+
+  verifyToken(token) {
+    return jwt.verify(token, this.app.config.jwt.secret)
   }
 }
 

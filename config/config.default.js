@@ -22,7 +22,7 @@ module.exports = appInfo => {
   }
 
   config.jwt = {
-    scret: '64b923cc-3b37-4119-b5be-4619e82d12a8',
+    secret: '64b923cc-3b37-4119-b5be-4619e82d12a8',
     expiresIn: '1d'
   }
 
